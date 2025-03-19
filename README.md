@@ -2,6 +2,10 @@
 
 Ini adalah proyek portofolio pribadi yang saya buat menggunakan **HTML, CSS, dan JavaScript**. Portofolio ini dirancang untuk menampilkan keahlian, pengalaman, dan proyek yang telah saya kerjakan dengan tampilan modern.
 
+## 🎥 Demo Video  
+Lihat demo proyek ini di YouTube:  
+[![Demo Project](https://img.youtube.com/vi/yzYzqoQECg8/0.jpg)](https://www.youtube.com/watch?v=yzYzqoQECg8)
+
 ## 🔥 Fitur Utama
 - **Efek Animasi** – Menggunakan CSS & JavaScript untuk interaksi yang lebih menarik.
 - **Halaman Dinamis** – Bagian seperti "Home", "Service", "Project", "Testimonial", dan "Contact" dibuat lebih interaktif dengan JavaScript.
