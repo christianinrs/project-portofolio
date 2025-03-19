@@ -3,12 +3,8 @@
 Ini adalah proyek portofolio pribadi yang saya buat menggunakan **HTML, CSS, dan JavaScript**. Portofolio ini dirancang untuk menampilkan keahlian, pengalaman, dan proyek yang telah saya kerjakan dengan tampilan modern.
 
 ## 🎥 Demo Video  
-Lihat demo proyek ini langsung di sini:  
-
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/yzYzqoQECg8" 
-  title="Demo Project" frameborder="0" allowfullscreen></iframe>
-</p>
+Lihat demo proyek ini di YouTube:  
+[![Demo Project](https://img.youtube.com/vi/yzYzqoQECg8/0.jpg)](https://www.youtube.com/watch?v=yzYzqoQECg8)
 
 ## 🔥 Fitur Utama
 - **Efek Animasi** – Menggunakan CSS & JavaScript untuk interaksi yang lebih menarik.
