@@ -33,7 +33,6 @@ index.php        # Halaman utama
 ## 📌 Roadmap Pengembangan
 ✅ Versi 1.0 – Struktur dasar & tampilan statis  
 🔜 Versi 2.0 – Tambah efek animasi, mode gelap dan responsive
-🔜 Versi 3.0 – Tambah formulir kontak interaktif  
 
 ## 📬 Kontribusi
 Saran dan kontribusi sangat diterima! Jika Anda menemukan bug atau memiliki ide baru, silakan buat **issue** atau kirim **pull request**. 🙌
