@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {  
+    background-color: #0d0e10;  
+    align-items: center;  
+    color: white;  
+}  
+            
+.navbar {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 30px 80px;
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+    background-color: #0d0e10;  
+    z-index: 1000;
+}  
+          
+.navbar ul { 
+    display: flex;  
+    gap: 30px;  
+    list-style: none;  
+}  
+            
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+          
+.navbar ul li {  
+    cursor: pointer;  
+}  
+          
+.home {  
+    padding: 210px 80px 100px; /* atas kanan-kiri bawah */
+}  
+          
+.judul1 {  
+    color: lime;  
+    font-weight: bold;  
+    font-size: 25px;  
+}  
+          
+.typingefek {  
+    display: inline-block;  
+    border-right: 3px solid white; 
+    padding-right: 5px;  
+    animation: blink 0.7s infinite;  
+    font-size: 65px;  
+    font-weight: bold;  
+    padding-bottom: 25px;  
+}  
+          
+@keyframes blink {  
+    50% { border-color: transparent; }  
+}  
+          
+.abouttext {  
+    color: #737880;  
+    font-size: 20px;  
+    padding-bottom: 70px;  
+}  
+          
+.btn-wa {  
+    background-color: green;  
+    border-radius: 20px;  
+    border: black;  
+    height: 50px;  
+    width: 100px;  
+}  
+          
+.btn-wa a {  
+    text-decoration: none;  
+    color: white;  
+    font-weight: bold;  
+}  
+          
+.btn-down {  
+    background-color: green;  
+    border-radius: 20px;  
+    border: black;  
+    height: 50px;  
+    width: 100px;  
+}  
+          
+.btn-down a {  
+    text-decoration: none;  
+    color: white;  
+    font-weight: bold;  
+}  
+          
+.btn {  
+    display: flex;  
+    align-items: center;  
+    gap: 20px;  
+}  
+          
+.subservice {  
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;  
+    font-weight: bold;
+    /*background-color: #252729;*/
+}  
+            
+.service h1 {
+    font-size: 45px;
+}
+          
+.srvtext {
+    color: green;  
+    /*padding-left: auto;  */
+    font-size: 20px;
+}  
+            
+.srvtext p {
+    color: #737880;
+    font-size: 15px;
+}
+            
+.card-service {
+    display: flex;
+    gap: 20px;
+    padding: 10px 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+            
+.card1, .card2, .card3 {
+    height: 320px;
+    width: 100%;
+    border-radius: 30px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+}
+            
+.card1:hover, .card2:hover, .card3:hover {
+    border-color: lime;
+    border-style: solid;
+}
+            
+.image-font {
+    font-size: 30px;
+    padding: 65px 30px 30px; /* atas kanan-kiri bawah */
+    /*background-color: green;*/
+    /*border-radius: 25%;*/
+}
+            
+.judul-card {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 30px 7px; /* atas kanan-kiri bawah */
+}
+            
+.deskripsi-card {
+    color: #737880;
+    font-size: 20px;
+    padding: 2px 30px;
+}
+            
+.project {
+    background-color: #242830;
+    border-radius: 0px 90px;
+    padding-bottom: 20px;
+}
+            
+.subproject {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+    align-items: center;
+}
+            
+.subproject h1 {
+    font-weight: bold;
+    font-size: 45px;
+}
+            
+.btn-seeall {
+    background-color: transparent;
+    border-color: lime;
+    border-style: solid;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+}
+            
+.btn-seeall:hover {
+    border-color: white;
+    border-style: solid;
+    background-color: black;
+    color: white;
+}
+            
+.btn-seeall a {
+    text-decoration: none;
+    color: white;
+}
+            
+.card-project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 60px 80px;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+            
+.card-img1 h2, .card-img2 h2, .card-img3 h2, .card-img4 h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+            
+.card-img1 a, .card-img2 a, .card-img3 a, .card-img4 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+}
+            
+.testimonial {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+            
+.judul-testi {
+    color: green;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+            
+.testimonial h1 {
+    font-size: 45px;
+    padding-bottom: 90px;
+}
+            
+.text-testi {
+    color: #737880;
+    font-size: 20px;
+}
+            
+.Slide {
+    display: none;
+}
+            
+.data-diri {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+            
+.detail {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+            
+.detail p {
+    color: #737880;
+    font-size: 16px;
+}
+
+.contact {
+    background-color: #242830;
+    height: 100%;
+}
+
+.contact h1 {
+    text-align: center;
+    padding: 40px;
+}
+        
+.form {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+        
+.input-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+        
+.input-class {
+    background-color: #000a1a;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-style: none;
+}
+        
+.textarea-data {
+    padding-bottom: 20px;
+}
+        
+.textarea-data textarea {
+    background-color: #000a1a;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    width: 620px;
+    height: 300px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    resize: none;
+    color: white;
+    /*overflow: hidden; */
+}
+        
+.button-class {
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-color: lime;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+}
+        
+.button-class:hover {
+    border-color: white;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+        
+.footer-class {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+        
+.foot-detail {
+    display: flex;
+    gap: 60px;
+    padding-right: 30px;
+}
+        
+.information h1, .sosmed h1 {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+        
+.information p, .sosmed p {
+    color: #737880;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+        
+.sosmed a {
+    text-decoration: none;
+    color: #737880;
+}
+        
+.line {
+    border-top: 1px solid #737880;
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+        
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
