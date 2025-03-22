@@ -46,3 +46,7 @@ Saran dan kontribusi sangat diterima! Jika Anda menemukan bug atau memiliki ide 
 **Lisensi**
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+---
+
+🚀 Dibuat oleh [Christian Inrista](https://www.linkedin.com/in/christianinrista).
